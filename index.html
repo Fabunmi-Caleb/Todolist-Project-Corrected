@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list without prototype</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cd3953e2bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<header>
+    <i id="header-checkmark" class="fa-solid fa-check fa-2x"></i>
+    <p>minimalist</p>
+</header>
+
+<section id="section1">
+
+<div class="container">
+    <div>Demo</div>
+    <div class="input-container">
+        <input id="addToDoInput" type="text" placeholder="Add to your list">
+        <i id="submitBtn" class="fa-solid fa-check"></i>
+    </div>
+    <div id="toBeAppendedTo"></div>
+    <div id="clearAllButtonDiv"><button id="clearAllButton">Clear all Completed</button></div>
+</div>
+
+<div class="beside-container">
+    <p id="textBesideList" class="">A simple list app that's <br> everywhere you are.</p>
+    <img width="140px" height="30px" src="https://web.archive.org/web/20180320194056im_/http://www.getminimalist.com/assets/try-me-c2bdedc2842386b6f012ae5d51351020.png" alt="tryMeImage">
+  </div>    
+
+</section>
+
+<section id="section2" class="">
+    <div class="textDivs">
+        <div>
+        <h5>With you everywhere -</h5>
+        <p>The internet makes your lists magically available <br> anywhere. You can access them on your phone, tablet, or <br> computer.</p>    
+        </div>
+    
+        <div>
+        <h5>No need to log-in -</h5>
+        <p>You don't need an account to use minimalist. Your lists will <br> live at a special url so just bookmark that and you're good <br> to go!</p>
+        </div>
+    </div>
+
+    <div class="textDivs">
+        <div>
+        <h5>Even better on mobile -</h5>
+        <p>This was made mobile-first, so although it's not in the App Store <br> it supports touch gestures like swiping, dragging and <br> tapping.</p>
+        </div>
+        
+        <div>
+        <h5>Simple, Shareable -</h5>
+        <p>Anyone you share your link with can access your lists the <br> same as you. Because some lists are better shared (and <br> some are not).</p>    
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <span>© 2018 Made by<a href="#">@mshwery.</a></span>
+        <span id="todosandlistsCounter">x Lists. y Todos</span>
+     </footer>
+
+
+<script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,161 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+
+header i{
+    width: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 13px;
+}
+
+.container{
+    width: 576px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.container div{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#toBeAppendedTo{
+    padding: 0;
+    border: none;
+}
+
+#clearAllButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.input-container{
+    display: flex;
+}
+
+.input-container input{
+    border: none;
+    width: 546px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.input-container input:focus{
+    outline: none;
+}
+
+.input-container i{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.container button{
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.container button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#section1{
+    display: flex;
+    justify-content: center;
+}
+
+.beside-container{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textDivs{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media (max-width:822px) {
+    .container{
+        width: 400px;
+    }
+}
+
+@media (max-width:700px) {
+    .beside-container{
+        display: none;
+    }
+}
+
+@media (max-width:503px) {
+    .container{
+    width: 310px;
+    }
+}
+
+@media (max-width:945px) {
+    .textDivs{
+        display: block;
+        width: fit-content;
+    }
+    .textDivs br{
+        display: none;
+    }
+}
+
+/* Javascript Classes */
+.addBorder{
+    border: 1px solid black;
+}
+
+.lineThrough{
+    text-decoration: line-through;
+}
+
+.alignToTheRight{
+    display: flex;
+    float: right;
+    align-items: center;
+}
+
+.changeToRed{
+    color: red;
+}
+
+.draggableColors{
+    background-color: black;
+    color: white;
+    /* box-shadow: 2px 2px 5px blue; */
+}
+
+.defaultClass{
+    display: block;
+}
+
+.stylingReloadedDivs{
+    width: 576px;
+    border: 1px solid black;
+    
+}
